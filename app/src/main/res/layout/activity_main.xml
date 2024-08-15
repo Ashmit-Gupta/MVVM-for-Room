@@ -33,8 +33,39 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+                android:text="Get Quotes"
+                android:id="@+id/btnGetQuote"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Get Quotes By id "
+                android:id="@+id/btnGetQuoteById"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
                 android:text="Insert Quotes"
                 android:id="@+id/btnAddQuote"/>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Update Quote"
+                android:id="@+id/btnUpdateQuote"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Delete Quotes"
+                android:id="@+id/btnDeleteQuote"/>
+
 
         </LinearLayout>
 
